@@ -1,0 +1,13 @@
+{
+  "name": "steps-collect-artifacts",
+  "version": "1.0.0",
+  "description": "Bitrise Collect Artifacts",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
