@@ -26,7 +26,7 @@ for(let i=0; i<BUILD_SLUGS.length; i++){
   request(options, function (error, response) { 
     if (error) throw new Error(error);
     const buildStatus = JSON.parse(response.body).data;
-    if(buildStatus && buildStatus.status === 1){
+    if(buildStatus && buildStatus.status != 0){
       options.url = url + "/artifacts";
 
       // Get Build Artifacts
